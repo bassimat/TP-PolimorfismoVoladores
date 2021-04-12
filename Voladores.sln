@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI_Voladores", "UI_Voladores\UI_Voladores.csproj", "{2EB4BAF9-4696-4082-8576-CE1A06CE6CB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL_Voladores", "BLL_Voladores\BLL_Voladores.csproj", "{2982551F-474A-45A9-ACDE-10DD2AFE8BC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EB4BAF9-4696-4082-8576-CE1A06CE6CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB4BAF9-4696-4082-8576-CE1A06CE6CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB4BAF9-4696-4082-8576-CE1A06CE6CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB4BAF9-4696-4082-8576-CE1A06CE6CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2982551F-474A-45A9-ACDE-10DD2AFE8BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2982551F-474A-45A9-ACDE-10DD2AFE8BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2982551F-474A-45A9-ACDE-10DD2AFE8BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2982551F-474A-45A9-ACDE-10DD2AFE8BC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E694502-47B8-4ACA-BC72-A0C95D8E23D7}
+	EndGlobalSection
+EndGlobal

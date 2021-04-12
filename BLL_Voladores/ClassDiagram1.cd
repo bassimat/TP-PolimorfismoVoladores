@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BLL.Animal">
+    <Position X="1.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Animal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Ave">
+    <Position X="4.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ave.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BLL.Paloma">
+    <Position X="7.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Paloma.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Mamifero">
+    <Position X="4.75" Y="2.75" Width="2.25" />
+    <InheritanceLine Type="BLL.Animal" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="1.625" />
+        <Point X="4.354" Y="1.625" />
+        <Point X="4.354" Y="3.419" />
+        <Point X="4.75" Y="3.419" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mamifero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Tigre">
+    <Position X="7.75" Y="3.25" Width="2" />
+    <InheritanceLine Type="BLL.Mamifero" FixedToPoint="true">
+      <Path>
+        <Point X="7" Y="3.366" />
+        <Point X="7.375" Y="3.366" />
+        <Point X="7.375" Y="4.023" />
+        <Point X="7.75" Y="4.023" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tigre.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Aguila">
+    <Position X="7.75" Y="1.75" Width="2" />
+    <InheritanceLine Type="BLL.Ave" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="1.938" />
+        <Point X="7.271" Y="1.938" />
+        <Point X="7.271" Y="2.394" />
+        <Point X="7.75" Y="2.394" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Aguila.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Insecto">
+    <Position X="4.75" Y="4.25" Width="2" />
+    <InheritanceLine Type="BLL.Animal" FixedToPoint="true">
+      <Path>
+        <Point X="2.5" Y="2.247" />
+        <Point X="2.5" Y="4.875" />
+        <Point X="4.75" Y="4.875" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Insecto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Mariposa">
+    <Position X="7.75" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mariposa.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
